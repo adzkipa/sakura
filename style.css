@@ -1,0 +1,153 @@
+/*ブラウザがそれぞれ持っているCSSをリセットするための記述*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+a {
+  text-decoration: none;
+  color: #38b48b;
+}
+header,
+nav,
+main,
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: darkgreen;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+}
+
+header .heading a {
+  color: #fff;
+}
+
+.nav-list {
+  margin: 10px 0;
+}
+.nav-list-item {
+  margin: 0 20px;
+  display: inline-block;
+  color: #fff;
+}
+main {
+  padding: 10px 40px 40px 40px;
+  background-color: #ecfcdf;
+}
+.main-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.main-box {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 70%;
+  padding: 0 10px;
+  line-height: 40px;
+}
+.text1 {
+  display: flex;
+}
+.text2 {
+  display: flex;
+}
+.text3 {
+  display: flex;
+}
+.text4 {
+  display: flex;
+}
+.text5 {
+  display: flex;
+}
+.text6 {
+  display: flex;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+.image-box {
+  width: 30%;
+  margin-right: 10px;
+}
+.main-image {
+  width: 100%;
+  border-radius: 10px;
+}
+.main-text1 {
+  width: 100px;
+  font-weight: bold;
+}
+.main-text2 {
+  width: 100px;
+  font-weight: bold;
+}
+.main-text3 {
+  width: 100px;
+  font-weight: bold;
+}
+.main-text4 {
+  width: 100px;
+  font-weight: bold;
+}
+.main-text5 {
+  width: 100px;
+  font-weight: bold;
+}
+.main-text6 {
+  width: 100px;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: darkgreen;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+.footer-text {
+  color: #fff;
+}
+.text6-1 {
+  display: block;
+}
+
+.social i {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-list {
+    width: 100%;
+  }
+  .main-visual {
+    width: 100%;
+  }
+  .box {
+    width: 100%;
+    display: block;
+  }
+  .image-box {
+    width: 100%;
+  }
+  .main-box {
+    width: 100%;
+  }
+  footer {
+    position: relative;
+  }
+}
